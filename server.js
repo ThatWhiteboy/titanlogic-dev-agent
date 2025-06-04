@@ -1,0 +1,1 @@
+// server.js\nconst express = require('express');\nconst app = express();\nconst port = process.env.PORT || 3000;\n\napp.use(express.json());\n\napp.get('/', (req, res) => {\n  res.send('TitanLogic Dev Agent is live'''));\n});\n\napp.listen(port, () => {\n  console.log(`Server running on port ${port}`);\n});
