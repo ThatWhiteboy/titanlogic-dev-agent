@@ -1,1 +1,16 @@
-# TitanLogic Dev Agent\n\nThis is the base scaffold for a full-stack AI development agent. The goal is to allow Codex to manage deployments, write code, and structure projects for TitanCloud AI and LazyLogic AI.\n\n## Project Structure\n- `server.js`: Express server starter\n- `public/`: Frontend placeholder\n- `api/`: Backend API logic\n- `scripts/`: Dev automation\n- `config/`: Environment setup\n\n## Setup\n```bash\nnpm install\nnpm start\n```\n\n## Goals\n- Full automation of codegen, deployments, and infrastructure\n- Expandable by Codex for frontend/backend creation
+# TitanLogic Dev Agent
+
+This repository contains a minimal Express server used as the starting point for the TitanLogic development agent.
+
+## Project Structure
+- `server.js`: Express server starter
+- `package.json`: Node dependencies and npm scripts
+- `.gitignore`: ignores `node_modules`
+
+## Setup
+```bash
+npm install
+npm start
+```
+
+The server simply responds with a confirmation message when visiting the root route.
